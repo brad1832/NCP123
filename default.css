@@ -1,0 +1,216 @@
+body 
+{
+	font-family:  Arial;
+ 
+	font-size: 1.5em; 
+
+	color: #2b2b2b;   
+	width:99%;
+}
+
+#abc li 
+{
+	display: inline;		
+}
+
+#abc a 
+{
+	display: block;
+	float: left;
+	width: 12.16%;
+	width: 13.5%; 
+	padding:15px 0px;
+	margin-top: 0.5em; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 1em;
+	border:thin white solid;
+	text-decoration: none;
+	text-align: center;
+	font-size: 98%; 
+	color: black;  
+	background-color: #f9f9f9;
+	
+	
+	
+}
+
+#def
+{
+	clear: both;
+	width: 96%;
+	overflow: hidden;
+	
+	margin: 0%;
+	border-top: 4px #84C22C solid;
+	background-color:#84C22C;
+}
+
+
+
+
+#ghi
+{
+	clear:both;
+	width:96%;
+    text-align:left;
+	margin-left:1em;
+	margin-right:1em;
+	margin-top:1em;
+	
+}
+
+#jkl
+{
+	float: left;
+	width: 75%;
+	padding-left:0%;
+}
+
+#mno
+{
+	float: right;
+	width: 20%;
+	padding: 0.313em;
+	background: #EDEBD5;	
+}
+
+#mno h2 
+{
+	margin: 0%;
+	padding: 0.313em 0.938em;
+	color: #ff4c00;
+	
+}
+
+#mno h3 
+{
+	font-size: 85%;
+	color: #FFFFFF;
+	background:#ff4c00;
+}
+
+#mno ul 
+{
+	margin: 0;
+	padding: 0.938em;
+	list-style: none;
+}
+
+#mno a 
+{
+	color: #FFFFFF;
+}
+
+
+
+
+
+#pqr
+{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+	background-color: #EE7B10;
+}
+
+#pqr h2 
+{
+	/*
+	background-color: #ED5C0C;
+	background-color: #EA811F;
+	background-color: #E07B1D;
+	*/
+    background-color:#ff4c00;
+    color:White;
+  text-indent:8px;
+	width:99%;
+	padding:7px 1px;
+	margin:0px;
+	
+	
+	font-size:1.3em;
+}
+
+#pqr ul
+{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#pqr li
+{
+	margin:0px;
+	text-indent:8px;
+	padding:5px 0px;
+	border-top:medium #E07B1D solid;
+	width:100%;
+	font-size:.85em;
+}
+
+#pqr a 
+{
+	display:block;
+	margin-top:1px;
+	width:100%;
+    text-decoration:none;
+}
+
+#xyz
+{
+    width:96%;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+
+img 
+{
+	border: none;
+}
+
+img.left 
+{
+	float: left;
+	margin: 0 20px 10px 0;
+	width:35.5%;
+	max-width: 100%;
+	height: auto; 
+}
+
+img.leftimg 
+{
+	float: left;
+	margin: 0 20px 10px 0;
+	width:35.5%;
+    max-width: 100%;	
+    height: auto;
+}
+
+
+
+
+
+
+
+
+p.aaa::before
+{
+    
+	content: url("img08.gif");
+	font-style: italic;
+}
+
+p.bbb::after
+{
+	content: url("img08b.gif");
+	
+}
+
+
+
+
+
